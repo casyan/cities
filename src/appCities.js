@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import {AppRegistry, View, Text} from 'react-native';
 import Header from './common/Header';
 import CityList from './CityList';
-import Firebase from 'firebase';
+import firebase from 'firebase';
 
 class AppCities extends Component{
 
