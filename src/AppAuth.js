@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 import {View} from 'react-native';
 import Header from './common/Header';
+import LoginForm from './LoginForm';
 import firebase from 'firebase';
 
 class AppAuth extends Component{
@@ -24,7 +25,7 @@ class AppAuth extends Component{
 		return{
 			<View style = {{ flex : 1 }}>
 				<Header title='Auth' />
-				<CityList />
+				<LoginForm />
 			</View>
 		}
 		
